@@ -68,10 +68,8 @@ const Index = () => {
               </p>
 
               <div className="my-16 not-prose space-y-12">
-                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
-                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
-                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
-                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                <div className="p-12 md:p-16">
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center">
                     Текст рождается в тишине. Сначала это лишь смутное беспокойство где-то за грудиной, зуд в кончиках пальцев. 
                     Потом — первое слово. Оно, как семя, падает на чистый лист или мерцающий экран. За ним — второе, третье... 
                     Они сплетаются в предложения, предложения — в абзацы. Иногда они текут легко, как ручей по весне. 
@@ -82,10 +80,8 @@ const Index = () => {
                   </p>
                 </div>
 
-                <div className="relative bg-gradient-to-br from-accent/5 to-primary/5 rounded-2xl p-12 md:p-16 border border-accent/10">
-                  <div className="absolute top-8 left-8 text-6xl text-accent/20">"</div>
-                  <div className="absolute bottom-8 right-8 text-6xl text-accent/20 rotate-180">"</div>
-                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                <div className="p-12 md:p-16">
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center">
                     В каждом слове скрыта вселенная. Буквы складываются в символы, символы — в образы, образы — в миры. 
                     Писатель — не просто человек с ручкой или клавиатурой. Это архитектор реальностей, которых еще не существовало. 
                     Он берет пустоту и наполняет её смыслом. Каждый абзац — это кирпичик в здании, которое будет стоять 
@@ -94,10 +90,8 @@ const Index = () => {
                   </p>
                 </div>
 
-                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
-                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
-                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
-                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                <div className="p-12 md:p-16">
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center">
                     Редактирование — это вторая жизнь текста. Черновик всегда несовершенен. Он похож на глыбу мрамора, 
                     из которой скульптор высекает статую. Убрать лишнее, отшлифовать грубые края, найти ту самую фразу, 
                     которая зазвучит правильно. Иногда приходится убить своих любимых. Удалить красивые, но ненужные 
@@ -106,10 +100,8 @@ const Index = () => {
                   </p>
                 </div>
 
-                <div className="relative bg-gradient-to-br from-accent/5 to-primary/5 rounded-2xl p-12 md:p-16 border border-accent/10">
-                  <div className="absolute top-8 left-8 text-6xl text-accent/20">"</div>
-                  <div className="absolute bottom-8 right-8 text-6xl text-accent/20 rotate-180">"</div>
-                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                <div className="p-12 md:p-16">
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center">
                     Страх чистого листа — знаком каждому, кто пишет. Этот гнетущий момент, когда курсор мигает в пустоте, 
                     а в голове — ничего. Но стоит написать первую строчку — любую, даже плохую — и механизм запускается. 
                     Слова начинают притягивать друг друга, как магниты. Появляется импульс, движение, жизнь. 
@@ -117,10 +109,8 @@ const Index = () => {
                   </p>
                 </div>
 
-                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
-                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
-                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
-                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                <div className="p-12 md:p-16">
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center">
                     Читатель — это соавтор. Без него текст мертв. Он оживает только тогда, когда кто-то пробегает глазами 
                     по строкам и в его голове начинают разворачиваться образы. Писатель задает траекторию, но каждый читатель 
                     проходит по ней по-своему. Кто-то найдет в тексте то, чего автор не закладывал. Кто-то пропустит важное. 
