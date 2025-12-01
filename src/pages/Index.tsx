@@ -13,14 +13,6 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-2xl mx-auto">
             Краткое описание вебинара, конференции или марафона
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <Button size="lg" className="text-lg px-8 py-6 rounded-full">
-              Зарегистрироваться
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 rounded-full">
-              Узнать больше
-            </Button>
-          </div>
         </div>
         
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
