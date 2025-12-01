@@ -67,7 +67,7 @@ const Index = () => {
                 и том, что участники получат после прохождения.
               </p>
 
-              <div className="my-16 not-prose">
+              <div className="my-16 not-prose space-y-12">
                 <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
                   <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
                   <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
@@ -79,6 +79,53 @@ const Index = () => {
                     мир за окном исчезает. Остается только ритм, смысл и эта магия — превращение незримой мысли в видимые знаки, 
                     которые кто-то другой прочтет и, возможно, почувствует то же, что и ты. Текст — это мост, 
                     построенный в одиночку, но предназначенный для того, чтобы по нему прошел другой.
+                  </p>
+                </div>
+
+                <div className="relative bg-gradient-to-br from-accent/5 to-primary/5 rounded-2xl p-12 md:p-16 border border-accent/10">
+                  <div className="absolute top-8 left-8 text-6xl text-accent/20">"</div>
+                  <div className="absolute bottom-8 right-8 text-6xl text-accent/20 rotate-180">"</div>
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                    В каждом слове скрыта вселенная. Буквы складываются в символы, символы — в образы, образы — в миры. 
+                    Писатель — не просто человек с ручкой или клавиатурой. Это архитектор реальностей, которых еще не существовало. 
+                    Он берет пустоту и наполняет её смыслом. Каждый абзац — это кирпичик в здании, которое будет стоять 
+                    долго после того, как автор уйдет. Слова переживут нас. Они будут жить в головах читателей, 
+                    порождая новые мысли, новые чувства, новые миры.
+                  </p>
+                </div>
+
+                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
+                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
+                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                    Редактирование — это вторая жизнь текста. Черновик всегда несовершенен. Он похож на глыбу мрамора, 
+                    из которой скульптор высекает статую. Убрать лишнее, отшлифовать грубые края, найти ту самую фразу, 
+                    которая зазвучит правильно. Иногда приходится убить своих любимых. Удалить красивые, но ненужные 
+                    предложения, которые тормозят повествование. Это больно. Но текст должен дышать. Он должен течь, 
+                    как река — без запруд и лишних камней.
+                  </p>
+                </div>
+
+                <div className="relative bg-gradient-to-br from-accent/5 to-primary/5 rounded-2xl p-12 md:p-16 border border-accent/10">
+                  <div className="absolute top-8 left-8 text-6xl text-accent/20">"</div>
+                  <div className="absolute bottom-8 right-8 text-6xl text-accent/20 rotate-180">"</div>
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                    Страх чистого листа — знаком каждому, кто пишет. Этот гнетущий момент, когда курсор мигает в пустоте, 
+                    а в голове — ничего. Но стоит написать первую строчку — любую, даже плохую — и механизм запускается. 
+                    Слова начинают притягивать друг друга, как магниты. Появляется импульс, движение, жизнь. 
+                    Главное — начать. А дальше текст сам поведет тебя туда, куда нужно. Он умнее, чем кажется.
+                  </p>
+                </div>
+
+                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
+                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
+                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                    Читатель — это соавтор. Без него текст мертв. Он оживает только тогда, когда кто-то пробегает глазами 
+                    по строкам и в его голове начинают разворачиваться образы. Писатель задает траекторию, но каждый читатель 
+                    проходит по ней по-своему. Кто-то найдет в тексте то, чего автор не закладывал. Кто-то пропустит важное. 
+                    Но это и есть магия — текст принадлежит всем и никому одновременно. Он живет своей жизнью, независимо 
+                    от создателя.
                   </p>
                 </div>
               </div>
