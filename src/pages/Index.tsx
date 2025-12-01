@@ -67,6 +67,22 @@ const Index = () => {
                 и том, что участники получат после прохождения.
               </p>
 
+              <div className="my-16 not-prose">
+                <div className="relative bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-12 md:p-16 border border-primary/10">
+                  <div className="absolute top-8 left-8 text-6xl text-primary/20">"</div>
+                  <div className="absolute bottom-8 right-8 text-6xl text-primary/20 rotate-180">"</div>
+                  <p className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light text-center relative z-10">
+                    Текст рождается в тишине. Сначала это лишь смутное беспокойство где-то за грудиной, зуд в кончиках пальцев. 
+                    Потом — первое слово. Оно, как семя, падает на чистый лист или мерцающий экран. За ним — второе, третье... 
+                    Они сплетаются в предложения, предложения — в абзацы. Иногда они текут легко, как ручей по весне. 
+                    Иногда приходится выковыривать их по букве, как камень из замшелой земли. Но когда процесс пошел, 
+                    мир за окном исчезает. Остается только ритм, смысл и эта магия — превращение незримой мысли в видимые знаки, 
+                    которые кто-то другой прочтет и, возможно, почувствует то же, что и ты. Текст — это мост, 
+                    построенный в одиночку, но предназначенный для того, чтобы по нему прошел другой.
+                  </p>
+                </div>
+              </div>
+
               <div className="grid md:grid-cols-3 gap-8 mt-16 not-prose">
                 <Card className="p-8 text-center space-y-4 border-none shadow-sm hover:shadow-md transition-shadow">
                   <Icon name="Calendar" size={40} className="mx-auto text-primary" />
