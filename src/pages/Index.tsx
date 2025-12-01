@@ -36,6 +36,14 @@ const Index = () => {
                 Расскажите о целях, программе, спикерах и ключевых темах, которые будут обсуждаться.
               </p>
               
+              <div className="my-12 rounded-lg overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/41f05932-7a23-4424-9dbe-87fbe659f4c2.jpg" 
+                  alt="Event illustration"
+                  className="w-full h-auto"
+                />
+              </div>
+              
               <p className="text-xl text-muted-foreground leading-relaxed font-light mt-8">
                 Этот блок предназначен для лонгрида — развёрнутого текста, который познакомит 
                 посетителей с деталями мероприятия. Добавьте информацию о формате, расписании, 
