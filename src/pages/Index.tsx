@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { useState } from "react";
 
 const Index = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-screen flex items-center justify-center px-6 py-20">
@@ -36,12 +39,26 @@ const Index = () => {
                 Расскажите о целях, программе, спикерах и ключевых темах, которые будут обсуждаться.
               </p>
               
-              <div className="my-12 rounded-lg overflow-hidden">
-                <img 
-                  src="https://cdn.poehali.dev/files/41f05932-7a23-4424-9dbe-87fbe659f4c2.jpg" 
-                  alt="Event illustration"
-                  className="w-full h-auto"
-                />
+              <div className="my-12 not-prose max-w-sm mx-auto">
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-muted cursor-pointer">
+                      <img 
+                        src="https://cdn.poehali.dev/files/41f05932-7a23-4424-9dbe-87fbe659f4c2.jpg" 
+                        alt="Event illustration"
+                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl">
+                    <img 
+                      src="https://cdn.poehali.dev/files/41f05932-7a23-4424-9dbe-87fbe659f4c2.jpg" 
+                      alt="Event illustration"
+                      className="w-full h-auto rounded-lg"
+                    />
+                  </DialogContent>
+                </Dialog>
               </div>
               
               <p className="text-xl text-muted-foreground leading-relaxed font-light mt-8">
@@ -93,18 +110,28 @@ const Index = () => {
                 "https://cdn.poehali.dev/projects/b63119d9-12df-4a7c-bfe8-992c2405ab9f/files/d0b21657-fc69-40b5-8cbf-8012fda0eb13.jpg",
                 "https://cdn.poehali.dev/projects/b63119d9-12df-4a7c-bfe8-992c2405ab9f/files/7f83b956-546e-45a0-9ff7-73452e2fdd4d.jpg"
               ].map((image, index) => (
-                <div
-                  key={index}
-                  className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-muted cursor-pointer animate-scale-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <img 
-                    src={image} 
-                    alt={`Gallery image ${index + 1}`}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
-                </div>
+                <Dialog key={index}>
+                  <DialogTrigger asChild>
+                    <div
+                      className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-muted cursor-pointer animate-scale-in"
+                      style={{ animationDelay: `${index * 0.1}s` }}
+                    >
+                      <img 
+                        src={image} 
+                        alt={`Gallery image ${index + 1}`}
+                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl">
+                    <img 
+                      src={image} 
+                      alt={`Gallery image ${index + 1}`}
+                      className="w-full h-auto rounded-lg"
+                    />
+                  </DialogContent>
+                </Dialog>
               ))}
             </div>
           </div>
